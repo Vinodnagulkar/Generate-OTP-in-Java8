@@ -1,7 +1,6 @@
 package com.otp;
 
 import java.util.SplittableRandom;
-
 /**
  * @author Vinod.nagulkar
  *
@@ -20,7 +19,6 @@ public class OtpGenerator {
 		for (int i = 0; i < otpLength; i++) 
 		{
 			sb.append(splittableRandom.nextInt(0, 10));
-			
 		}
 		return sb.toString();
 	}
